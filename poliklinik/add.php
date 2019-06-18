@@ -62,7 +62,7 @@ if (isset($_POST['submit'])) {
                         </div>
                     <?php endif; ?>
                     <div class="row justify-content-end">
-                        <a href="<?= base_url("obat/index.php"); ?>" class="btn btn-warning btn-sm mb-2"><i class="fa fa-fw fa-arrow-left"></i> Kembali</a>
+                        <a href="<?= base_url("poliklinik/index.php"); ?>" class="btn btn-warning btn-sm mb-2"><i class="fa fa-fw fa-arrow-left"></i> Kembali</a>
                     </div>
 
                     <!-- form start -->

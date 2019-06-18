@@ -34,7 +34,8 @@ $title = "My Profile"; ?>
                 <div class="card card-primary card-outline">
                     <div class="card-body box-profile">
                         <div class="text-center">
-                            <img class="profile-user-img img-fluid img-circle" src="<?= base_url("assets/img/profile/") . $session['img']; ?>" alt="User profile picture">
+                            <img class="profile-user-img img-fluid img-circle" src="<?= base_url("assets/img/profile/") . $session['img']; ?>" style="  width: 100px;
+                            height: 100px;" alt="User profile picture">
                         </div>
 
                         <h3 class="profile-username text-center"><?= $session['nama']; ?></h3>

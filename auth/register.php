@@ -27,7 +27,7 @@ if (isset($_POST['login'])) {
                 $sukses = false;
             } else {
                 $pass = password_hash($password, PASSWORD_DEFAULT);
-                $insert = "INSERT INTO tbl_user VALUES ('','$nama','$username','$pass','','0')";
+                $insert = "INSERT INTO tbl_user VALUES ('','$nama','$username','$pass','','default.jpg','0')";
                 $sukses = mysqli_query($conn, $insert);
                 if ($sukses) {
                     echo "<script> alert('Anda berhasil registrasi'); window.location='index.php'; </script>";
